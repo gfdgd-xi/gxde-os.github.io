@@ -1,4 +1,4 @@
-# Deepin Cloud Print (Only in GXDE 15.x)
+# Deepin Cloud Print (Only in GXDE 15.x and GXDE 25.x hetao)
 
 ## Overview
 
