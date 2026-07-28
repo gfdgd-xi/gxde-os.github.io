@@ -21,6 +21,14 @@ export default defineConfig({
       {
         text: "星火应用商店",
         link: "https://www.spark-app.store/",
+      },
+      {
+        text: "论坛",
+        link: "https://bbs.spark-app.store/"
+      },
+      {
+        text: "捐赠",
+        link: "/install/#%E6%8D%90%E8%B5%A0"
       }
     ],
 
@@ -146,6 +154,14 @@ export default defineConfig({
           {
             text: "Spark APP Store",
             link: "https://www.spark-app.store/",
+          },
+          {
+            text: "Forum",
+            link: "https://bbs.spark-app.store/"
+          },
+          {
+            text: "Donate",
+            link: "/en/install/#donations"
           }
         ],
         sidebar: [
