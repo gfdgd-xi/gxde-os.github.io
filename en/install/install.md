@@ -30,9 +30,13 @@ For Beginners: If you don't know how to partition, leave some space on a disk an
 
 EFI Installation: You must create a partition formatted as vfat/fat32 with the mount point set to /boot/efi. The remaining space can be partitioned as needed.  
 
-Because the LoongArch Debian upstream is not yet stable, GXDE loong64 is built upon deepin 25. Its codename is `hetao`, and the 'Rock Solid' feature is not enabled.
+GXDE LoongArch now has two versions:
 
-Install image lock screen password: `live`  
+1. lizhi (mainline) – based on a third‑party Debian 13 build, enabled from version 25.4.1 onward.
+
+2. hetao – built on Deepin 25, without the Panshi security framework enabled.
+
+Installation image lock screen password: live
 
 Due to the lack of standardized specifications for RISC-V64 architecture devices, the RISC-V ISO installation images provided by GXDE are only supported to run under QEMU. Install QEMU by running the command:  
 `sudo apt install qemu-system qemu-efi-riscv64`  

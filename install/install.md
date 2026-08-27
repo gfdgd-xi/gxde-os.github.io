@@ -29,9 +29,9 @@ EFI 安装：必须分一块格式为 vfat/fat32 的分区，挂载点选择 /bo
 
 gxde Loongarch 现在有两个版本,分别为
 
-1:lizhi 主线(基于第三方的 Debian13 制作,从25.4.1开始启用)
+1. lizhi 主线(基于第三方的 Debian13 制作,从25.4.1开始启用)
 
-2:hetao (基于 deepin 25 构建,未启用磐石)
+2. hetao (基于 deepin 25 构建,未启用磐石)
 
 安装镜像锁屏密码：`live`    
 
