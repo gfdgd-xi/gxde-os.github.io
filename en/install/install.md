@@ -1,6 +1,9 @@
 # How to Install GXDE?
 ## Image Installation
 
+### ⚠️ Note: The Hisilicon and Pangu images are special and are only recommended for users with tinkering experience. Beginners should not install them. Furthermore, users with Hisilicon or Pangu chips must install GXDE on an external hard drive and must not modify or adjust any partitions on the machine's internal hard drive; otherwise, the computer may fail to boot and you may be unable to reinstall the system.
+
+**Note: Users with Phytium or Kunpeng chips should download the image inside the `arm64` folder; Pangu M900 users should download the image inside the `arm64-pangu-m900` folder; Hisilicon 9000c users should download the image inside the `arm64-hisi9000c` folder. Other Hisilicon chips are not currently supported.**  
 
 Official download: https://repo.gxde.top/ISO/
 
