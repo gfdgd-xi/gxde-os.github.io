@@ -27,7 +27,11 @@ GXDE 仍不完美，请在安装前确认 [FAQ](faq.md) 中的事项，包括了
 
 EFI 安装：必须分一块格式为 vfat/fat32 的分区，挂载点选择 /boot/efi，剩余可按需求分区  
 
-因为 Loongarch Debian 上游尚不稳定，故 GXDE loong64 是基于 deepin 25 构建的，代号为`核桃`，未启用磐石  
+gxde Loongarch 现在有两个版本,分别为
+
+1:lizhi 主线(基于第三方的 Debian13 制作,从25.4.1开始启用)
+
+2:hetao (基于 deepin 25 构建,未启用磐石)
 
 安装镜像锁屏密码：`live`    
 
