@@ -6,15 +6,32 @@
 欢迎点右上角 Star，您的肯定是我们的最大动力。
 :::
 
-## 下载地址
+## 下载 ISO
+
+### 下载地址
 
 镜像站下载（教育网联合镜像站）：https://mirrors.cernet.edu.cn/GXDE/ISO/
 
 官方下载： https://repo.gxde.top/ISO/
 
-镜像源列表：[点击这里查看](mirrors.md)
+### 下载指南：
 
-旧版/不常用架构版本存档:   
+* Intel / AMD 芯片的硬件：下载 `amd64` 目录下的 ISO 文件
+* 飞腾 / 鲲鹏 芯片的硬件：下载 `arm64` 目录下的 ISO 文件
+* 麒麟 9000c 芯片的设备（擎云w515x/擎云w585）：下载 `arm64-hisi9000c` 目录下的 ISO 文件
+* 盘古 M900 芯片的设备（擎云w525）：下载 `arm64-pangu-m900` 目录下的 ISO 文件
+* 龙芯 3A5000 / 3A6000 芯片的设备：下载 `loong64` 目录下的 ISO 文件
+* 龙芯 3A3000 / 3A4000 芯片的设备：下载 `15.15.3` 版本 `mips64el` 目录下的 ISO 文件
+
+## 其他下载
+
+### 镜像源列表：
+
+[点击这里查看](mirrors.md) 镜像站列表
+
+### 旧版/不常用架构版本存档: 
+
+  
 下载地址1：https://www.123865.com/s/pDSKVv-gVPWv  
 下载地址2：https://www.123684.com/s/pDSKVv-gVPWv  
 下载地址3：https://ctfile.gfdgdxi.top/d/31540479-66220399-11ab95?p=2061 (访问密码: 2061)  
