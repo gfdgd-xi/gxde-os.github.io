@@ -109,7 +109,8 @@ Wine 运行器：https://gitee.com/gfdgd-xi/deep-wine-runner
 同时本项目也使用了以下列出的项目，对以下项目的开发者与维护者献出衷心的感谢：  
 音乐插件：https://github.com/SeptemberHX/dde-mpris2-plugin  
 资源监视插件：https://gitee.com/q77190858/dde-sys-monitor-plugin/  
-DDE Top Panel：https://github.com/SeptemberHX/dde-top-panel  
+DDE Top Panel：https://github.com/SeptemberHX/dde-top-panel 
+deepin-liferaft: https://github.com/st0nie/deepin-liferaft/
 
 ## 仓库地址
 

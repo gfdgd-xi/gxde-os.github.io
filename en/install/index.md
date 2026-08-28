@@ -91,6 +91,7 @@ This project also utilizes the following listed projects, and heartfelt thanks t
 Music Plugin: https://github.com/SeptemberHX/dde-mpris2-plugin  
 Resource Monitor Plugin: https://gitee.com/q77190858/dde-sys-monitor-plugin/  
 DDE Top Panel: https://github.com/SeptemberHX/dde-top-panel
+deepin-liferaft: https://github.com/st0nie/deepin-liferaft/
 
 ## Repository Address
 Gitee: http://gitee.com/GXDE-OS  
