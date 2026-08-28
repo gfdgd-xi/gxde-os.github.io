@@ -22,7 +22,7 @@ Q1: 为什么在 GXDE 操作系统中 `apt` 命令的显示样式不同？
 
 A1: 为了加速 apt 的下载进程，我们基于 apt-fast 开发了一个名为 `aptss` 的工具，它默认会替换原有的 `apt`。若要恢复为标准版本的 `apt`，请卸载 `apt-is-aptss` 这个软件包。
 
-A1: **建议安装后进行一次升级，执行 `sudo apt full-upgrade -y`**
+A1: **建议安装后进行一次升级，执行 `sudo apt update&&sudo apt full-upgrade -y`**
 
 
 

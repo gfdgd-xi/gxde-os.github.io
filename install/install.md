@@ -54,7 +54,7 @@ qemu-system-riscv64 \
 ## APT 源安装
 > amd64、arm64、mips64el、loong64 等已经有 ISO 安装镜像的，建议使用 ISO 安装  
 > 目前支持 i386、amd64、arm64、mips64、loong64 和 riscv64 架构（riscv64 下未测试）   
-> amd64、arm64 支持在 Debian 13/12 下安装使用，i386、mips64 支持在 Debian 12 下安装使用，loong64 支持在 deepin25 下安装使用，riscv64 支持在 Debian 13/deepin25 下使用
+> amd64、arm64 支持在 Debian 13/12 下安装使用，i386、mips64 支持在 Debian 12 下安装使用，loong64 支持在 deepin25/debian13 下安装使用，riscv64 支持在 Debian 13/deepin25 下使用
 
 使用 deb 包安装 APT 源：
 
@@ -79,7 +79,7 @@ sudo apt update
 
 sudo apt install aptss
 
-sudo apt install gxde-testing-source -y  # 添加内测源
+sudo apt install gxde-testing-source -y  # 添加内测源,可不添加
 
 sudo aptss update
 

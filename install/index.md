@@ -46,7 +46,7 @@ QQ 群：
 1 群：881201853  
 2 群：712629637  
 
-Discord：https://discord.gg/t5Uf2xYpvA
+Discord：https://discord.gg/t5Uf2xYpvA( **外国沟通渠道** )
 
 请点击右上角的Star，您的支持是我们最大的动力。
 
@@ -85,7 +85,7 @@ GXDE OS 内置[星火应用商店](https://gitee.com/spark-store-project/)，使
 | 25/Sparkle  | 壮壮 | GXDE OS 25 日更源  | i386, amd64, arm64, riscv64, loong64 | 荔枝版本的每日构建源，请勿用于生产环境 |
 | | 荔枝 | GXDE 25 的稳定源  | i386, amd64, arm64, riscv64, loong64 | 基于 Debian Trixie (13) 构建的稳定发行 |
 | | 核桃 | deepin GXDE 25 日更源（无磐石） | amd64, arm64, loong64, riscv64 | 基于 deepin 25 构建的龙芯特别版，处于demo阶段，请勿用于生产环境| 
-| 15/Yunli | 天禄 |  GXDE OS 15 日更源  | i386, amd64, arm64, mips64el | 辟邪版本的每日构建源，已停止支持，**除非您清楚自己在做什么，请勿使用此源** |
+| 15/Yunli | 天禄 |  GXDE OS 15 日更源  | i386, amd64, arm64, mips64el | **已停止支持，请勿使用此源** |
 | | 辟邪 |  GXDE OS 15 稳定源  | i386, amd64, arm64, mips64el | **已停止支持** |
 
 

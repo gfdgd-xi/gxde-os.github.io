@@ -59,7 +59,7 @@ qemu-system-riscv64 \
 > 
 > Currently supported architectures include i386, amd64, arm64, mips64, loong64, and riscv64 (riscv64 has not been tested).
 > 
-> amd64, arm64 are supported for installation and use under Debian 13/12. i386, mips64 are supported for installation and use under Debian 12. loong64 is supported for installation and use under deepin25. riscv64 is supported for use under deepin25/Debian13.
+> amd64, arm64 are supported for installation and use under Debian 13/12. i386, mips64 are supported for installation and use under Debian 12. loong64 is supported for installation and use under deepin25/debian13. riscv64 is supported for use under deepin25/debian13.
 
 First, you need download the deb file:  
 

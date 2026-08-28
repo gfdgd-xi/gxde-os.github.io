@@ -25,7 +25,7 @@ QQ Groups:
 Group 1: 881201853  
 Group 2: 712629637  
 
-Discord: https://discord.gg/t5Uf2xYpvA
+Discord: https://discord.gg/t5Uf2xYpvA (**Foreign channels of communication**)
 
 ### DistroWatch
 GXDE OS has been officially accepted by DistroWatch! Come check us out:  
