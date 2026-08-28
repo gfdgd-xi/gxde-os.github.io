@@ -51,7 +51,7 @@ A4: GXDE 15 版本已停止支持，请勿加入 15 版本的内测！
 
 A4: 请加入我们的 QQ 群来反馈: 881201853
 
-A4: 输入 sudo apt install gxde-testing-source即可加入
+A4: 输入 sudo apt install gxde-testing-source 或在控制中心“更新”模块加入/关闭内测源即可加入
 
 ---
 
