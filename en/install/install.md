@@ -98,7 +98,7 @@ Then restart.
 
 > `aptss` can accelerate download speed from GXDE source. But, if your performance is so poor that running `aptss` cost centuries, just use apt.
 
-**There are potential conflict between GXDE and KDE. Don't install them both or maybe something will crash**
+**GXDE conflicts with KDE, please do not install them at the same time, this may cause some metaphysical problems**
 
 ## Using GXDE on Other Linux Distributions
 
