@@ -16,7 +16,7 @@ Q1: Why does the `apt` command look different in GXDE OS?
 
 A1: To accelerate the download progress of apt, we developed a tool called `aptss` based on apt-fast, which replaces `apt` by default. To revert to the standard `apt`, uninstall the package `apt-is-aptss`.
 
-A1: **It is recommended to perform an full upgrade after installation. Please run `sudo apt update&&sudo apt full-upgrade -y` .**
+A1: **It is recommended to perform an full upgrade after installation. Please run `sudo apt update && sudo apt full-upgrade -y` .**
 
 
 
