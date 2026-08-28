@@ -74,7 +74,6 @@ GXDE OS 集成了多个社区的开源项目，包括顶栏、全局菜单、星
 
 GXDE OS 内置[星火应用商店](https://gitee.com/spark-store-project/)，使用户能够轻松发现和安装所需应用程序，而无需使用命令行。
 
-此外，只需将 `apt` 替换为 `aptss`，即可加速下载速度。
 
 
 ### 系统代号
@@ -85,7 +84,7 @@ GXDE OS 内置[星火应用商店](https://gitee.com/spark-store-project/)，使
 |---| --- | --- | --- | --- |
 | 25/Sparkle  | 壮壮 | GXDE OS 25 日更源  | i386, amd64, arm64, riscv64, loong64 | 荔枝版本的每日构建源，请勿用于生产环境 |
 | | 荔枝 | GXDE 25 的稳定源  | i386, amd64, arm64, riscv64, loong64 | 基于 Debian Trixie (13) 构建的稳定发行 |
-| | 核桃 | deepin GXDE 25 日更源（无磐石） | amd64, arm64, loong64, riscv64 | 基于 deepin 25 构建的龙芯特别版，处于demo阶段，请勿用于生产环境| 
+| | 核桃 | deepin GXDE 25 日更源（无磐石） | amd64, arm64, loong64, riscv64 | 基于 deepin 25 构建的gxde，处于demo阶段，请勿用于生产环境| 
 | 15/Yunli | 天禄 |  GXDE OS 15 日更源  | i386, amd64, arm64, mips64el | **已停止支持，请勿使用此源** |
 | | 辟邪 |  GXDE OS 15 稳定源  | i386, amd64, arm64, mips64el | **已停止支持** |
 

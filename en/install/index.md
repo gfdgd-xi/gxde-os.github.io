@@ -49,8 +49,6 @@ GXDE OS integrates some community open-source software, including a top bar, glo
 
 [Spark App Store](https://gitee.com/spark-store-project/) is preinstalled in GXDE OS, enabling users to effortlessly discover and install essential applications without needing to use the command line. 
 
-Also, simply replace `apt` with `aptss` command can boost your download speed. 
-
 
 
 Please Click the Star in the Upper Right Corner, Your Support is Our Greatest Motivation
@@ -64,7 +62,7 @@ The Generation names are selected from video game "Honkai:Star Rail"
 |---| --- | --- | --- | --- |
 | 25/Sparkle | zhuangzhuang | GXDE OS 25 Daily Build Source | i386, amd64, arm64, riscv64, loong64 | Daily builds for Litchi version. **Do not use in production environments**. |
 | | lizhi | GXDE 25 Stable Source | i386, amd64, arm64, riscv64, loong64 | Stable release based on Debian Trixie (13). |
-| | hetao | deepin GXDE 25 Daily Build Source | amd64, arm64, loong64, riscv64 | Loongson edition (demo) based on deepin 25. **Not for production use**. |
+| | hetao | deepin GXDE 25 Daily Build Source | amd64, arm64, loong64, riscv64 | gxde based on deepin 25. **Not for production use**. |
 | 15/Yunli | tianlu | GXDE OS 15 Daily Build Source | i386, amd64, arm64, mips64el | **Support has been discontinued**. |
 | | bixie | GXDE OS 15 Stable Source | i386, amd64, arm64, mips64el | **Support has been discontinued**. |
 

@@ -61,7 +61,7 @@ qemu-system-riscv64 \
 | 目标系统代号 | 支持发行版 | deb 包下载地址 |
 | --- | --- | --- |
 | lizhi | Debian 13 | https://repo.gxde.top/gxde-os/lizhi/g/gxde-source/ |
-| bixie | Debian 12 | https://repo.gxde.top/gxde-os/bixie/g/gxde-source/ |
+| bixie(不推荐使用) | Debian 12 | https://repo.gxde.top/gxde-os/bixie/g/gxde-source/ |
 | hetao | deepin 25 | https://repo.gxde.top/gxde-os/hetao/g/gxde-source/ |
 
 ::: warning
@@ -69,7 +69,7 @@ qemu-system-riscv64 \
 :::
 
 :::warning
-**从 GXDE 2025 开始直接基于 Debian backports 构建，在您安装 `gxde-source` 包后将会自动添加 Debian Backports 源**
+**从 GXDE 25 开始直接基于 Debian backports 构建，在您安装 `gxde-source` 包后将会自动添加 Debian Backports 源**
 :::
 
 安装之后，执行以下命令安装 GXDE 桌面环境：
@@ -91,7 +91,7 @@ sudo aptss install spark-store -y  # 此命令只支持 amd64, arm64, loong64 �
 
 执行完毕后，重启电脑即可。
 
-> `aptss` 可以加速在 GXDE 系统源的下载速度，但如果您的性能低下导致 `aptss` 运行缓慢到无法接受，可换成 `apt`
+> `aptss` 可以加速在 GXDE 系统源的下载速度，但如果您的性能低下导致 `aptss` 运行缓慢到无法接受，请卸载 apt-is-aptss 这个软件包
 
 **GXDE与KDE有可能的冲突，请不要同时安装它们，这可能会带来错误**
 

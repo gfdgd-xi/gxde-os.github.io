@@ -66,7 +66,7 @@ First, you need download the deb file:
 | Target System Code | Supported Distribution | deb Package Download URL |
 | --- | --- | --- |
 | lizhi | Debian 13 | https://repo.gxde.top/gxde-os/lizhi/g/gxde-source/ |
-| bixie | Debian 12 | https://repo.gxde.top/gxde-os/bixie/g/gxde-source/ |
+| bixie(Not recommended for use) | Debian 12 | https://repo.gxde.top/gxde-os/bixie/g/gxde-source/ |
 | hetao | deepin 25 | https://repo.gxde.top/gxde-os/hetao/g/gxde-source/ |
 
 ::: warning
@@ -74,7 +74,7 @@ First, you need download the deb file:
 :::
 
 ::: warning
-**Starting from GXDE 2025, we are directly built on Debian Backports. After installing the `gxde-source` package, the Debian Backports repository will be automatically added**
+**Starting from GXDE 25, we are directly built on Debian Backports. After installing the `gxde-source` package, the Debian Backports repository will be automatically added**
 :::
 
 After installation, run:  
