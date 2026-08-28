@@ -93,7 +93,7 @@ sudo aptss install spark-store -y  # 此命令只支持 amd64, arm64, loong64 �
 
 > `aptss` 可以加速在 GXDE 系统源的下载速度，但如果您的性能低下导致 `aptss` 运行缓慢到无法接受，请卸载 apt-is-aptss 这个软件包
 
-**GXDE与KDE有冲突，请不要同时安装它们，这可能会带来一些玄学问题**
+**GXDE与KDE有冲突，请不要同时安装它们，这会直接把gxde桌面干掉**
 
 ## 在其它 Linux 发行版使用 GXDE
 GXDE LSG（Linux subsystem for GXDE）是一个允许用户在其它 Linux 发行版以不破坏原系统的情况下运行 Debian13 + GXDE 桌面环境的工具，基于 systemd-nspawn 制作，可运行星火应用商店等常见应用  
