@@ -68,6 +68,7 @@ export default defineConfig({
           { text: "深度云打印", link: "/apps/deepin-cloud-print/" },
           { text: "GXDE 投屏工具", link: "/apps/gxde-dlna-caster/" },
           { text: "GXDE 文件传输工具", link: "/apps/gxde-filetransfer/" },
+          { text: "GXDE 硬件查看器", link: "/apps/gxde-hardware-viewer/" },
         ],
       },
       {
