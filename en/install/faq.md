@@ -16,7 +16,7 @@ Q1: Why does the `apt` command look different in GXDE OS?
 
 A1: To accelerate the download progress of apt, we developed a tool called `aptss` based on apt-fast, which replaces `apt` by default. To revert to the standard `apt`, uninstall the package `apt-is-aptss`.
 
-A1: **It is recommended to perform an full upgrade after installation. Please run `sudo apt update && sudo apt full-upgrade -y` .**
+A1: **We recommend performing a full upgrade after installation. Run `sudo apt update && sudo apt full-upgrade -y`.**
 
 
 
@@ -42,9 +42,9 @@ A3: Simply install the package `linux-kernel-oldstable-gxde-amd64` and boot with
 
  Q4: What is beta testing? How can I join the beta test?
  
- A4: GXDE 15 version is no longer supported, please do not join the 15 version of the internal test.
+ A4: Beta releases include the latest development work. You can join the beta program to try new features, but beta releases may be unstable and are recommended only for experienced users.
  
- A4: GXDE 15 Version is under archive stage, the beta test source is corrupted. DO NOT JOIN IT IF YOU ARE USING GXDE 15. 
+ A4: GXDE 15 is NO LONGER supported. Do not join the beta program if you are using GXDE 15.
  
  A4: Please join our Discord Group: https://discord.gg/t5Uf2xYpvA
 

@@ -59,14 +59,14 @@ qemu-system-riscv64 \
 > 
 > Currently supported architectures include i386, amd64, arm64, mips64, loong64, and riscv64 (riscv64 has not been tested).
 > 
-> amd64, arm64 are supported for installation and use under Debian 13/12. i386, mips64 are supported for installation and use under Debian 12. loong64 is supported for installation and use under deepin25/debian13. riscv64 is supported for use under deepin25/debian13.
+> The amd64 and arm64 architectures are supported on Debian 12 and 13. i386 and mips64 are supported on Debian 12. loong64 and riscv64 are supported on deepin 25 and Debian 13.
 
 First, you need download the deb file:  
 
 | Target System Code | Supported Distribution | deb Package Download URL |
 | --- | --- | --- |
 | lizhi | Debian 13 | https://repo.gxde.top/gxde-os/lizhi/g/gxde-source/ |
-| bixie(Not recommended for use) | Debian 12 | https://repo.gxde.top/gxde-os/bixie/g/gxde-source/ |
+| bixie (not recommended) | Debian 12 | https://repo.gxde.top/gxde-os/bixie/g/gxde-source/ |
 | hetao | deepin 25 | https://repo.gxde.top/gxde-os/hetao/g/gxde-source/ |
 
 ::: warning
@@ -74,7 +74,7 @@ First, you need download the deb file:
 :::
 
 ::: warning
-**Starting from GXDE 25, we are directly built on Debian Backports. After installing the `gxde-source` package, the Debian Backports repository will be automatically added**
+**Starting with GXDE 25, GXDE is built directly from Debian Backports. Installing the `gxde-source` package automatically adds the Debian Backports repository.**
 :::
 
 After installation, run:  
@@ -98,7 +98,7 @@ Then restart.
 
 > `aptss` can accelerate download speed from GXDE source. But, if your performance is so poor that running `aptss` cost centuries, just use apt.
 
-**GXDE conflicts with KDE, please do not install them at the same time, this may cause some metaphysical problems**
+**GXDE conflicts with KDE. Do not install them together, as doing so will break the GXDE desktop.**
 
 ## Using GXDE on Other Linux Distributions
 

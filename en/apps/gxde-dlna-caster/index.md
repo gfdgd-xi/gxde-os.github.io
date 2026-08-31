@@ -1,12 +1,13 @@
-#gxde-dlna-caster
+# GXDE DLNA Caster
 
 ## Overview
 
-GXDE Pin Tool is a tool to project your desktop screen and audio to DLNA TV, developed by Shenmo
+GXDE DLNA Caster streams your desktop screen & audio to a DLNA-compatible TV. Thanks Shenmo for developing this utility!!
 
 ## Website
 
 https://github.com/GXDE-OS/gxde-dlna-caster
 
-## pictures
-![0|gxde-dlna-caster](/public/gxde-dlna-caster.png)
+## Screenshot
+
+![GXDE DLNA Caster](/public/gxde-dlna-caster.png)

@@ -1,13 +1,12 @@
-# gxde-filetransfer
+# GXDE File Transfer
 
 ## Overview
 
-GXDE OS Similar FileZilla/FileGilla file transfer tool, supports FTP / FTP / FTP / SFTP / WebDAV / WebDAVS / SMB / SMBS protocol
+GXDE File Transfer is a FileZilla/FileGilla-like file transfer tool for GXDE OS. It supports the FTP, FTPS, SFTP, WebDAV, WebDAVS, SMB, and SMBS protocols.
 
-## webside
-
+## Website
 
 https://gitee.com/GXDE-OS/gxde-filetransfer
 
-## picture
+## Screenshot
 ![0|q](/apps/gxde-filetransfer/zh_CN/jpg/q.jpg)

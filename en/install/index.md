@@ -25,7 +25,7 @@ QQ Groups:
 Group 1: 881201853  
 Group 2: 712629637  
 
-Discord: https://discord.gg/t5Uf2xYpvA (**Foreign channels of communication**)
+Discord: https://discord.gg/t5Uf2xYpvA (**international community channel**)
 
 ### DistroWatch
 GXDE OS has been officially accepted by DistroWatch! Come check us out:  
@@ -62,7 +62,7 @@ The Generation names are selected from video game "Honkai:Star Rail"
 |---| --- | --- | --- | --- |
 | 25/Sparkle | zhuangzhuang | GXDE OS 25 Daily Build Source | i386, amd64, arm64, riscv64, loong64 | Daily builds for Litchi version. **Do not use in production environments**. |
 | | lizhi | GXDE 25 Stable Source | i386, amd64, arm64, riscv64, loong64 | Stable release based on Debian Trixie (13). |
-| | hetao | deepin GXDE 25 Daily Build Source | amd64, arm64, loong64, riscv64 | gxde based on deepin 25. **Not for production use**. |
+| | hetao | deepin GXDE 25 Daily Build Source | amd64, arm64, loong64, riscv64 | GXDE based on deepin 25. **Do not use in production environments**. |
 | 15/Yunli | tianlu | GXDE OS 15 Daily Build Source | i386, amd64, arm64, mips64el | **Support has been discontinued**. |
 | | bixie | GXDE OS 15 Stable Source | i386, amd64, arm64, mips64el | **Support has been discontinued**. |
 

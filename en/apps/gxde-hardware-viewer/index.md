@@ -1,29 +1,29 @@
-# gxde-hardware-viewer
+# GXDE Hardware Viewer
 
 ## Overview
 
-GXDE Hardware Manager is a lightweight hardware information viewer designed for the GXDE desktop environment. It provides comprehensive system information monitoring, the interface is simple and intuitive.
+GXDE Hardware Viewer is a lightweight application designed for the GXDE desktop environment. It presents comprehensive system information through a clean, intuitive interface.
 
-## Functional features
+## Features
 
-System Information 🖥️ : Operating System Details, Kernel Version, Architecture, Start-up Time
-CPU Monitoring 🔢: Real-time CPU frequency, core information and drive details
-Memory tracking 🧠: RAM and swap partition usage, including detailed statistics
-Storage Analytics 💾: Disk partitioning, storage devices, and I/O statistics
-Network Overview 🌐: Interface information, device drivers and traffic monitoring
-Display information 🖼️ : Graphics details, resolution, color depth and refresh rate
-Audio Equipment 🔊: Input/Output Audio Equipment and Drive Information
-Input devices ⌨️🖱️: Keyboard, mouse and other input device detection
-⬆️ Driver Updates: Supports getting driver & kernel updates from system sources
-Multi-language support 🌍: English and Chinese interface
-Data Export 📤: Export all hardware information to JSON format to the desktop
-Custom Background 🖼️: You can choose your favorite image as the background
-Supports touch screen 🖥️
+- **System info**: Shows your OS, kernel version, architecture, uptime, and more.
+- **CPU**: Shows live clock speeds, core details, and driver information.
+- **Memory**: Breaks down RAM and swap usage with detailed statistics.
+- **Storage**: Lists disk partitions and storage devices, along with I/O statistics.
+- **Network**: Shows network interfaces and drivers, with live traffic statistics.
+- **Display**: Lists your graphics hardware, resolution, color depth, and refresh rate.
+- **Audio**: Lists audio input and output devices and their drivers.
+- **Input devices**: Detects connected keyboards, mice, and other input hardware.
+- **Driver updates**: Checks your configured repositories for driver and kernel updates.
+- **Languages**: Available in English and Chinese.
+- **Data export**: Saves a full hardware report to your desktop as a JSON file.
+- **Custom backgrounds**: Lets you set any image as the background.
+- **Touchscreen support**: Works with touchscreen devices.
 
-## webside
+## Website
 
 https://gitee.com/GXDE-OS/gxde-hardware-viewer
 
-## picture
+## Screenshot
 
 ![0|z](/apps/gxde-hardware-viewer/zh_CN/jpg/z.png)
