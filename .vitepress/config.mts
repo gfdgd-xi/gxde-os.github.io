@@ -236,6 +236,18 @@ export default defineConfig({
                 text: "Deepin Cloud Print",
                 link: "/en/apps/deepin-cloud-print/",
               },
+              {
+                text: "GXDE DLNA Caster",
+                link: "/en/apps/gxde-dlna-caster/",
+              },
+              {
+                text: "GXDE Filetransfer",
+                link: "/en/apps/gxde-filetransfer/",
+              },
+              {
+                text: "GXDE Hardware Viewer",
+                link: "/en/apps/gxde-hardware-viewer/",
+              }
             ],
           },
           {
