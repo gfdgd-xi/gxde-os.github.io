@@ -6,14 +6,15 @@
 
 您在使用 `aptss` 命令替换 `apt` 时，会从以下镜像站智能获取加速服务，详细可参考 [FAQ](/install/faq)
 
-| 镜像名称 | 镜像地址 | 是否同步软件源 | 是否同步系统镜像 |
-| --- | --- | --- | --- |
-| 哈尔滨工业大学开源镜像站 | https://mirrors.hit.edu.cn/GXDE/ | ✅ | ✅ |
-| 山东大学镜像站 | https://mirrors.sdu.edu.cn/GXDE/ | ✅ | ✅ |
-| 南阳理工学院开源镜像站 | https://mirror.nyist.edu.cn/GXDE/ | ✅ | ✅ |
-| 河南省教育科研网开源镜像站 | https://mirrors.ha.edu.cn/GXDE/ | ✅ | ✅ |
-| Pika镜像站 | https://gxdeos.opkg.cn/cn/ | ✅ | ✅ |
-| SunnyPai镜像站 | https://mirror.sunnypai.top/gxde/ | ✅ | ✅ |
-| Sourceforge | https://sourceforge.net/projects/gxde-os-mirror | ✅ | ✅ |
+| 镜像名称 | 镜像地址 | 是否同步软件源 | 是否同步系统镜像 | 是否同步历史镜像 |
+| --- | --- | --- | --- | --- |
+| 哈尔滨工业大学开源镜像站 | https://mirrors.hit.edu.cn/GXDE/ | ✅ | ✅ |  |
+| 山东大学镜像站 | https://mirrors.sdu.edu.cn/GXDE/ | ✅ | ✅ |  |
+| 南阳理工学院开源镜像站 | https://mirror.nyist.edu.cn/GXDE/ | ✅ | ✅ |  |
+| 河南省教育科研网开源镜像站 | https://mirrors.ha.edu.cn/GXDE/ | ✅ | ✅ |  |
+| Pika镜像站 | https://gxdeos.opkg.cn/cn/ | ✅ | ✅ |  |
+| 致远镜像站 | https://mirrors.jiangzhiyuan.cloud/zymone/GXDEOS/ |  |  | ✅ |
+| SunnyPai镜像站 | https://mirror.sunnypai.top/gxde/ | ✅ | ✅ |  |
+| Sourceforge | https://sourceforge.net/projects/gxde-os-mirror | ✅ | ✅ |  |
 
 同时你也可以换源或手动配置 `aptss` 来手动指定镜像站

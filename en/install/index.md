@@ -3,21 +3,43 @@
 
 
 
-## Download ISO Images
+## Download ISO
+
+### Download Address
+
+Mirror site download (CERNET joint mirror): https://mirrors.cernet.edu.cn/GXDE/ISO/
 
 Official download: https://repo.gxde.top/ISO/
 
-Sourceforge: https://sourceforge.net/projects/gxde-os/files
+### Download Guide:
 
-ISO Mirror（CERNET Mirror）：https://mirrors.cernet.edu.cn/GXDE/ISO/
+* Hardware with Intel / AMD / Zhaoxin / Hygon CPU: download the ISO file in the `amd64` directory
+* Hardware with Phytium / Kunpeng CPU: download the ISO file in the `arm64` directory
+* Devices with Kirin 9000c CPU (Qingyun w515x / Qingyun w585): download the ISO file in the `arm64-hisi9000c` directory
+* Devices with Pangu M900 CPU (Qingyun w525): download the ISO file in the `arm64-pangu-m900` directory
+* Devices with Loongson 3A5000 / 3A6000 CPU: download the ISO file in the `loong64` directory
+* Devices with Loongson 3A4000 CPU: download the ISO file in the `mips64el` directory of version `15.15.3`
 
-Mirrors list: [Available Here](mirrors.md)
+## Other Downloads
 
-Legacy versions: https://ctfile.gfdgdxi.top/d/31540479-66220399-11ab95?p=2061 (Password: 2061)
+### Mirror Source List:
 
-**GXDE is not perfect yet, please check [FAQ](faq.md) before installation.**
+[Click here to view](mirrors.md) the list of mirror sites
 
-Please check [install tutorial](install.md) if you don't know how to install or ISO image installation can't meet your needs.
+### Legacy / Less Common Architecture Version Archive:
+
+Mirror site (ZhiYuanMirrors): https://mirrors.jiangzhiyuan.cloud/zymone/GXDEOS/  
+Sourceforge: https://sourceforge.net/projects/gxde-os/files/  
+Cloud drive download address 1: https://www.123865.com/s/pDSKVv-gVPWv  
+Cloud drive download address 2: https://www.123684.com/s/pDSKVv-gVPWv  
+Cloud drive download address 3: https://ctfile.gfdgdxi.top/d/31540479-66220399-11ab95?p=2061 (Access password: 2061)
+
+
+ **Note: Due to insufficient server space, the 15.15.3 image has been saved to other platforms**
+
+**GXDE is not yet perfect. Be sure to check the [FAQ](faq.md) before installation**
+
+If you don't know how to install, or if the ISO installation cannot meet your requirements, please refer to the [Installation Guide](install.md)
 
 ### User Group
 

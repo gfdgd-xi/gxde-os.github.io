@@ -31,10 +31,11 @@
 
 ### 旧版/不常用架构版本存档: 
 
-  
-下载地址1：https://www.123865.com/s/pDSKVv-gVPWv  
-下载地址2：https://www.123684.com/s/pDSKVv-gVPWv  
-下载地址3：https://ctfile.gfdgdxi.top/d/31540479-66220399-11ab95?p=2061 (访问密码: 2061)  
+镜像站（致远镜像站）：https://mirrors.jiangzhiyuan.cloud/zymone/GXDEOS/  
+Sourceforge：https://sourceforge.net/projects/gxde-os/files/  
+网盘下载地址1：https://www.123865.com/s/pDSKVv-gVPWv  
+网盘下载地址2：https://www.123684.com/s/pDSKVv-gVPWv  
+网盘下载地址3：https://ctfile.gfdgdxi.top/d/31540479-66220399-11ab95?p=2061 (访问密码: 2061)  
  **注：因服务器空间不足，15.15.3镜像已保存到其它平台** 
 
 **GXDE 尚不完美，安装前请务必检查[常见问题](faq.md)**
