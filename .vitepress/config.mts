@@ -74,6 +74,7 @@ export default defineConfig({
       {
         text: "更新日志",
         items: [
+          { text: "25.5", link: "/news/25.5"},
           { text: "25.5 beta1", link: "/news/25.5b1"},
           { text: "25.4.1", link: "/news/25.4.1"},
           { text: "25.4", link: "/news/25.4"},
@@ -253,6 +254,7 @@ export default defineConfig({
           {
             text: "Changelog",
             items: [
+              { text: "25.5", link: "/en/news/25.5"},
               { text: "25.5 beta1", link: "/en/news/25.5b1"},
               { text: "25.4.1", link: "/en/news/25.4.1"},
               { text: "25.4", link: "/en/news/25.4"},
