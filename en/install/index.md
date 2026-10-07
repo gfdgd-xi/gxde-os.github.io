@@ -49,6 +49,8 @@ Group 2: 712629637
 
 Discord: https://discord.gg/t5Uf2xYpvA (**international community channel**)
 
+Note: Recently, we have received feedback from users that unknown individuals are impersonating GXDE officials and creating so-called official group chats under the official name to deceive users. We remind all users that group chat information should be based on the official website. Any group chat not mentioned on the GXDE official website is not an official group chat. Please be vigilant.  
+
 ### DistroWatch
 GXDE OS has been officially accepted by DistroWatch! Come check us out:  
 https://distrowatch.com/table.php?distribution=gxde  
