@@ -13,7 +13,7 @@ When you are using `aptss` to replace `apt` command, you will automatically get 
 | NYIST Mirror | https://mirror.nyist.edu.cn/GXDE/ | Yes | Yes | |
 | HERNET Mirror | https://mirrors.ha.edu.cn/GXDE/ | Yes | Yes | |
 | Pika Mirror | https://gxdeos.opkg.cn/cn/ | Yes | Yes | |
-| ZhiYuanMirrors | https://mirrors.jiangzhiyuan.cloud/zymone/GXDEOS/ | | | Yes |
+| ZhiYuanMirrors |  https://mirrors.jiangzhiyuan.cloud/zymone/ | Yes | | Yes |
 | SunnyPai Mirror | https://mirror.sunnypai.top/gxde/ | Yes| Yes | |
 | Sourceforge | https://sourceforge.net/projects/gxde-os-mirror | Yes | Yes | |
 

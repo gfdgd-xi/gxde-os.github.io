@@ -13,7 +13,7 @@
 | 南阳理工学院开源镜像站 | https://mirror.nyist.edu.cn/GXDE/ | ✅ | ✅ |  |
 | 河南省教育科研网开源镜像站 | https://mirrors.ha.edu.cn/GXDE/ | ✅ | ✅ |  |
 | Pika镜像站 | https://gxdeos.opkg.cn/cn/ | ✅ | ✅ |  |
-| 致远镜像站 | https://mirrors.jiangzhiyuan.cloud/zymone/GXDEOS/ |  |  | ✅ |
+| 致远镜像站 | https://mirrors.jiangzhiyuan.cloud/zymone/ | ✅ |  | ✅ |
 | SunnyPai镜像站 | https://mirror.sunnypai.top/gxde/ | ✅ | ✅ |  |
 | Sourceforge | https://sourceforge.net/projects/gxde-os-mirror | ✅ | ✅ |  |
 
