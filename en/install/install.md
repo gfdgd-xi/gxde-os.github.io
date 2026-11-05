@@ -174,7 +174,7 @@ sudo pacman -Syu
 ### Installing GXDE
 First of all, you need to install our Wayland compositor:
 ```bash
-pacman -S flake-wm-git
+pacman -S flakewm-git
 ```
 
 GXDE provided several meta packages to make the installation easier:
@@ -186,7 +186,7 @@ GXDE provided several meta packages to make the installation easier:
 > **⚠️ NOTE**: GXDE Wayland session's lockscreen is provided by display manager. If you're bringing in your own display manager, please make sure they also provide lockscreen.
 
 ```bash
-pacman -S gxde-display-manager
+pacman -S gxdm-git gxdm-emergency-mode-git
 ```
 
 ... and please execute these command next time before you log in under TTY:

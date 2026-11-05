@@ -168,7 +168,7 @@ sudo pacman -Syu
 ### 安装GXDE
 首先，您需要安装合成器：
 ```bash
-pacman -S flake-wm-git
+pacman -S flakewm-git
 ```
 
 GXDE提供几个元包，您可以按需安装：
@@ -180,7 +180,7 @@ GXDE提供几个元包，您可以按需安装：
 > **⚠️ 注意**: GXDE Wayland会话的锁屏由显示管理器提供。如果您要使用自己的显示管理器，请确保它们提供锁屏。
 
 ```bash
-pacman -S gxde-display-manager
+pacman -S gxdm-git gxdm-emergency-mode-git
 ```
 
 下次登录账户前请在TTY下执行：
