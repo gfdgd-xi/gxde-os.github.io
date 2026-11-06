@@ -117,6 +117,12 @@
   line-height: 32px;
 }
 
+.home-gallery .el-carousel__container {
+  height: auto;
+  /* The 16:9 active card occupies half of the carousel width. */
+  aspect-ratio: 32 / 9;
+}
+
 @media (min-width: 640px) {
   :root {
     --vp-home-hero-image-filter: blur(56px);

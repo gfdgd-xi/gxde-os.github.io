@@ -35,8 +35,8 @@ features:
 
 ## Picture Gallery
 
-<el-carousel type="card" height="24vw" indicator-position="none">
-  <el-carousel-item v-for="item, k in previewSrcList" :key="item">
+<el-carousel ref="carousel" class="home-gallery" type="card" indicator-position="none">
+  <el-carousel-item v-for="item, k in previewSrcList" :key="item" @click.capture="handleSlideClick($event, k)">
     <el-image preview-teleported :preview-src-list="previewSrcList" :src="item" :initial-index="k" />
   </el-carousel-item>
 </el-carousel>
@@ -64,11 +64,21 @@ Sponsorship is our source of continuation! Thank you for your support!
 :::
 
 <script setup>
-import { ElCarousel, ElCarouselItem, ElImage, ElImageViewer } from 'element-plus';
+import { ref } from 'vue';
+import { ElCarousel, ElCarouselItem, ElImage } from 'element-plus';
 // import 'element-plus/es/components/carousel/style/css';
 // import 'element-plus/es/components/carousel-item/style/css';
 // import 'element-plus/es/components/image/style/css';
 // import 'element-plus/es/components/image-viewer/style/css';
+
+const carousel = ref();
+
+function handleSlideClick(event, index) {
+  if (carousel.value.activeIndex !== index) {
+    event.stopPropagation();
+    carousel.value.setActiveItem(index);
+  }
+}
 
 const previewSrcList = [
   '/1.jpg',
