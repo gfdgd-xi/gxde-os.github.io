@@ -23,6 +23,7 @@ provide("toggle-appearance", async (event: MouseEvent) => {
 
   const { clientX: x, clientY: y } = event;
   const toggle = event.currentTarget as HTMLElement;
+  const root = document.documentElement;
   const clipPath = [
     `circle(0px at ${x}px ${y}px)`,
     `circle(${Math.hypot(
@@ -34,6 +35,9 @@ provide("toggle-appearance", async (event: MouseEvent) => {
   isTransitioning = true;
   toggle.classList.add("appearance-transitioning");
   toggle.classList.toggle("appearance-hovered", toggle.matches(":hover"));
+  // Mask the light snapshot before its JavaScript animation is ready.
+  root.style.setProperty("--appearance-transition-clip", clipPath[0]);
+  let appearanceAnimation: Animation | undefined;
 
   try {
     const transition = document.startViewTransition(async () => {
@@ -43,7 +47,7 @@ provide("toggle-appearance", async (event: MouseEvent) => {
 
     await transition.ready.then(
       () => {
-        document.documentElement.animate(
+        appearanceAnimation = root.animate(
           { clipPath: isDark.value ? clipPath.reverse() : clipPath },
           {
             duration: 300,
@@ -64,6 +68,9 @@ provide("toggle-appearance", async (event: MouseEvent) => {
     await new Promise<void>((resolve) => {
       requestAnimationFrame(() => requestAnimationFrame(() => resolve()));
     });
+    // A filled animation would otherwise affect the next transition snapshot.
+    appearanceAnimation?.cancel();
+    root.style.removeProperty("--appearance-transition-clip");
     toggle.classList.remove("appearance-transitioning", "appearance-hovered");
     isTransitioning = false;
   }
@@ -95,6 +102,14 @@ provide("toggle-appearance", async (event: MouseEvent) => {
 ::view-transition-new(root),
 .dark::view-transition-old(root) {
   z-index: 9999;
+}
+
+::view-transition-new(root) {
+  clip-path: var(--appearance-transition-clip, none);
+}
+
+.dark::view-transition-new(root) {
+  clip-path: none;
 }
 
 .VPSwitchAppearance {
