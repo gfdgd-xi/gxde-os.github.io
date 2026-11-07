@@ -7,16 +7,22 @@ const { isDark } = useData();
 
 const { Layout } = DefaultTheme;
 
+let isTransitioning = false;
+
 const enableTransitions = () =>
   "startViewTransition" in document &&
   window.matchMedia("(prefers-reduced-motion: no-preference)").matches;
 
-provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
+provide("toggle-appearance", async (event: MouseEvent) => {
+  if (isTransitioning) return;
+
   if (!enableTransitions()) {
     isDark.value = !isDark.value;
     return;
   }
 
+  const { clientX: x, clientY: y } = event;
+  const toggle = event.currentTarget as HTMLElement;
   const clipPath = [
     `circle(0px at ${x}px ${y}px)`,
     `circle(${Math.hypot(
@@ -25,19 +31,42 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
     )}px at ${x}px ${y}px)`,
   ];
 
-  await document.startViewTransition(async () => {
-    isDark.value = !isDark.value;
-    await nextTick();
-  }).ready;
+  isTransitioning = true;
+  toggle.classList.add("appearance-transitioning");
+  toggle.classList.toggle("appearance-hovered", toggle.matches(":hover"));
 
-  document.documentElement.animate(
-    { clipPath: isDark.value ? clipPath.reverse() : clipPath },
-    {
-      duration: 300,
-      easing: "ease-in",
-      pseudoElement: `::view-transition-${isDark.value ? "old" : "new"}(root)`,
-    },
-  );
+  try {
+    const transition = document.startViewTransition(async () => {
+      isDark.value = !isDark.value;
+      await nextTick();
+    });
+
+    await transition.ready.then(
+      () => {
+        document.documentElement.animate(
+          { clipPath: isDark.value ? clipPath.reverse() : clipPath },
+          {
+            duration: 300,
+            easing: "ease-in",
+            fill: "both",
+            pseudoElement: `::view-transition-${isDark.value ? "old" : "new"}(root)`,
+          },
+        );
+      },
+      () => {
+        // Skipped transitions still apply the theme change.
+      },
+    );
+
+    await transition.finished;
+  } finally {
+    // Allow pointer hit-testing to resume before restoring hover transitions.
+    await new Promise<void>((resolve) => {
+      requestAnimationFrame(() => requestAnimationFrame(() => resolve()));
+    });
+    toggle.classList.remove("appearance-transitioning", "appearance-hovered");
+    isTransitioning = false;
+  }
 });
 </script>
 
@@ -74,5 +103,14 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
 
 .VPSwitchAppearance .check {
   transform: none !important;
+}
+
+.VPSwitchAppearance.appearance-transitioning,
+.VPSwitchAppearance.appearance-transitioning .check .icon span {
+  transition: none !important;
+}
+
+.VPSwitchAppearance.appearance-hovered {
+  border-color: var(--vp-c-brand-1) !important;
 }
 </style>
