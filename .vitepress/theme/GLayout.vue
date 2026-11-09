@@ -80,8 +80,8 @@ provide("toggle-appearance", async (event: MouseEvent) => {
 <template>
   <Layout>
     <template #nav-bar-content-after>
-      <a href="https://gitee.com/GXDE-OS/GXDE" style="padding: 0 12px">
-        <img src="https://gitee.com/GXDE-OS/GXDE/badge/star.svg" alt="star" />
+      <a href="https://github.com/GXDE-OS" style="padding: 0 12px">
+        <img src="https://img.shields.io/github/stars/GXDE-OS?style=flat&logo=github" alt="star" />
       </a>
     </template>
   </Layout>
